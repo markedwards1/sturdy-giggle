@@ -18,10 +18,10 @@ const activities = {
   ],
   sunMain: [
     { id: 'sun-dwellingup', title: 'Dwellingup day trip', time: '9:00 – 5:00', ticketTime: '9:00', image: 'assets/hills-hike.jpg', desc: 'A full Sunday nature adventure before dinner.', tags: ['nature', 'full day'] },
-    { id: 'just-be', title: 'Hang around the house and just be', time: '9:00 – 5:00', ticketTime: '9:00', image: 'assets/home-hangout.jpg', desc: 'Rest, cuddle, make food, watch something, or just be.', tags: ['home', 'soft'] },
+    { id: 'just-be', title: 'Hang around the house and just be', time: '9:00 – 5:00', ticketTime: '9:00', image: 'assets/home-hangout.jpg', desc: 'Rest, cuddle, make food, watch something, or just be.', tags: ['home', 'warm'] },
     { id: 'freo', title: 'Fremantle: Mark’s Perth history tour', time: '4 hours', ticketTime: 'Flexible', image: 'assets/fremantle.jpg', desc: 'A personal Fremantle walk with Mark’s Perth memories and history.', tags: ['Freo', 'history'] },
     { id: 'cbd', title: 'CBD, art gallery, museum, sushi train and walk', time: '4 hours', ticketTime: 'Flexible', image: 'assets/perth-cbd.jpg', desc: 'City, culture, sushi train, and a walk around.', tags: ['city', 'culture', 'food'] },
-    { id: 'river', title: 'River with Franky and soft afternoon', time: '10:00 – 5:00', ticketTime: '10:00', image: 'assets/river-walk.jpg', desc: 'River walk with Franky, then house/movie/rest energy for the afternoon.', tags: ['dog', 'river', 'movie'] },
+    { id: 'river', title: 'River with Franky and warm afternoon', time: '10:00 – 5:00', ticketTime: '10:00', image: 'assets/river-walk.jpg', desc: 'River walk with Franky, then house/movie/rest energy for the afternoon.', tags: ['dog', 'river', 'movie'] },
     { id: 'beach', title: 'Beach walk then lunch', time: '10:00 – 2:00', ticketTime: '10:00', image: 'assets/beach-walk.jpg', desc: 'Fixed at 10 am because it will rain in the afternoon.', tags: ['beach', 'lunch', 'weather-aware'] }
   ],
   dinner: [
