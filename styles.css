@@ -28,7 +28,7 @@ h1 { margin: 0; font-size: clamp(2.2rem, 8vw, 5rem); line-height: .92; letter-sp
 .planner-grid { display: grid; grid-template-columns: minmax(0, 1fr) 390px; gap: 22px; margin-top: 22px; align-items: start; }
 .choices { display: grid; gap: 18px; }
 .section-card { background: rgba(255,250,240,.88); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; box-shadow: 0 12px 32px rgba(60,36,15,.08); }
-.section-heading span { display: inline-block; padding: 5px 10px; background: rgba(247,207,114,.35); border-radius: 999px; font-weight: 800; font-size: .75rem; color: #6d4c18; }
+.section-heading span { display: inline-block; padding: 5px 10px; background: rgba(247,207,114,.35); border-radius: 999px; font-weight: 800; font-size: 1.25rem; color: #6d4c18; }
 .section-heading h2 { margin: 10px 0 4px; font-size: 1.25rem; }
 .section-heading p { margin: 0 0 12px; color: var(--muted); font-size: .94rem; }
 .card-list { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; }
