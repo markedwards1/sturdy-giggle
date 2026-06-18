@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7cf72" />
+  <title>Ice Cream Man Plan</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="hero">
+      <p class="eyebrow">Perth weekend ticket</p>
+      <h1>Ice Cream Man Plan</h1>
+      <p class="subtitle">Choose one card per section. The app builds the long romantic ticket.</p>
+    </header>
+
+    <section class="planner-grid">
+      <div class="choices">
+        <section class="section-card" id="sat-morning-section">
+          <div class="section-heading">
+            <span>Saturday</span>
+            <h2>9:00 am morning</h2>
+          </div>
+          <div class="card-list" data-section="satMorning"></div>
+        </section>
+
+        <section class="section-card" id="sat-main-section">
+          <div class="section-heading">
+            <span>Saturday</span>
+            <h2>11:00 am adventure</h2>
+            <p id="sat-main-note"></p>
+          </div>
+          <div class="card-list" data-section="satMain"></div>
+        </section>
+
+        <section class="section-card" id="sun-addon-section">
+          <div class="section-heading">
+            <span>Sunday</span>
+            <h2>Mini add-on</h2>
+            <p>This is optional, not a full day plan.</p>
+          </div>
+          <div class="card-list" data-section="sunAddon"></div>
+        </section>
+
+        <section class="section-card" id="sun-main-section">
+          <div class="section-heading">
+            <span>Sunday</span>
+            <h2>Main plan</h2>
+            <p id="sun-main-note"></p>
+          </div>
+          <div class="card-list" data-section="sunMain"></div>
+        </section>
+
+        <section class="section-card" id="dinner-section">
+          <div class="section-heading">
+            <span>Sunday</span>
+            <h2>6:00 pm dinner</h2>
+          </div>
+          <div class="card-list compact" data-section="dinner"></div>
+        </section>
+      </div>
+
+      <aside class="ticket-panel">
+        <div class="ticket" id="ticket">
+          <div class="ticket-top">
+            <p>Final ticket</p>
+            <h2>Ice Cream Man Plan</h2>
+          </div>
+          <div id="warnings" class="warnings"></div>
+          <div class="day-block">
+            <h3>Saturday</h3>
+            <div id="sat-ticket"></div>
+          </div>
+          <div class="day-block">
+            <h3>Sunday</h3>
+            <div id="sun-ticket"></div>
+          </div>
+          <div class="day-block">
+            <h3>Monday</h3>
+            <div class="ticket-row soft">
+              <time>Open</time>
+              <div><strong>No plan.</strong><p>Just see what happens. Coffee, cuddles, dog, packing, airport feelings, slow morning, whatever happens.</p></div>
+            </div>
+          </div>
+          <button class="reset-button" id="resetBtn">Reset plan</button>
+        </div>
+      </aside>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
